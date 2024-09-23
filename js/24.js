@@ -1,4 +1,5 @@
-// Eventos del DOM - Clicks
+/***************************** Vid 24 Eventos del DOM - Clicks*******************************/
+
 
 const heading = document.querySelector('.heading')
 heading.addEventListener('click', () =>  {

@@ -1,4 +1,5 @@
-// Condicionales
+/******************* Vid 24 Condicionales *******************************/
+ 
 
 const disponible = 4000
 const retirar = 200

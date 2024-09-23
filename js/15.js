@@ -1,3 +1,5 @@
+/******************* Vid 22 Funciones - Arrow Functions y array *******************************/
+
 const tecnologias = ['HTML', 'CSS', 'JavaScript', 'React', 'Node.js']
 
 // const nuevoArray = tecnologias.map( tech => {
@@ -8,6 +10,8 @@ const tecnologias = ['HTML', 'CSS', 'JavaScript', 'React', 'Node.js']
 //     }
 // })
 
+//Filter toma el arreglo y en base a la conidcion retorna un nuevo arreglo.
+//regresa diferente a react
 const nuevoArray2 = tecnologias.filter( tech => tech !== 'React')
 
 // console.log(nuevoArray)

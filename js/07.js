@@ -1,4 +1,5 @@
-// Unir 2 objetos
+/******************* Vid 12 - Objetos - Unir 2 objetos *******************************/
+ 
 const producto = {
     nombre: "Tablet",
     precio: 300,
@@ -11,6 +12,8 @@ const cliente = {
 
 // const nuevoObjeto = Object.assign(producto, cliente) // No
 const nuevoObjeto2 = { 
+    //Para guadar 2 objetos en uno, debemos hacer un spred operator y tomamos una copia y
+    //las colocamos dentro del objeto.
     producto: {...producto},
     cliente: {...cliente}
 }

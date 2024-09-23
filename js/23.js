@@ -1,4 +1,5 @@
-// manipular elementos HTML con JS
+/***************************** Vid 23 manipular elementos HTML con JS*******************************/
+
 
 const heading = document.querySelector('.heading')
 heading.textContent = 'Un Nuevo Heading'

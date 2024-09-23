@@ -1,10 +1,11 @@
 
-/************************************************** Vid 07 *************************************************/
+/************************************ Vid 07- Constantes ******************************************/
+
 // Variables - const
 const cliente = "Juan"
 const precioDescuento = 220 
 
-// No se puede re asignar
+// No se puede re asignar el valor con constante.
 cliente = "Pablo"
 
 // No pueden iniciar sin valor
@@ -12,6 +13,6 @@ cliente = "Pablo"
 
 
 
-console.log(precio)
+//console.log(precio)
 console.log(cliente)
 console.log(precioDescuento)

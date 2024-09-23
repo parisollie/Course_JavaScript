@@ -1,4 +1,5 @@
-// Comparación y Operador Estricto
+/******************* Vid 25 Comparación y Operador Estricto *******************************/
+
 
 const numero1 = 20
 const numero2 = "20"
