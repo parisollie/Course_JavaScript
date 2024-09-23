@@ -1,4 +1,4 @@
-// Eventos del DOM - Submit
+/***************************** Vid 34 Eventos del DOM - Submit  *****************************/
 
 const formulario = document.querySelector('#formulario')
 formulario.addEventListener('submit', e => {

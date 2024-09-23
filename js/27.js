@@ -1,3 +1,4 @@
+/***************************** Vid 35 Generand codigo con HTML con Javascript  *************************/
 
 const formulario = document.querySelector('#formulario')
 formulario.addEventListener('submit', e => {
@@ -8,9 +9,11 @@ formulario.addEventListener('submit', e => {
 
     const alertaPrevia = document.querySelector('.alerta')
     if(alertaPrevia) {
+        //revisa si ya tiene una alerta las remueve 
         alertaPrevia.remove()
     }
 
+    //En Java scritp en html se escribe con mayusculas
     const alerta = document.createElement('DIV')
     alerta.classList.add('alerta')
 
@@ -22,5 +25,6 @@ formulario.addEventListener('submit', e => {
         alerta.classList.add('exito')
     }
 
+    //appendchild agregamos al hijo como formulario 
     formulario.appendChild(alerta)
 })

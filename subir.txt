@@ -1,4 +1,4 @@
 ---Resubir proyecto
 git add .
-git commit -m "fix"
+git commit -m "Segunda parte JS"
 git push -u origin main

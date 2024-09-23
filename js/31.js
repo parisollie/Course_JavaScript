@@ -1,4 +1,5 @@
-// Fetch API  - Async Await (Multiples llamados)
+/***************************** Vid 39 Fetch API  - Async Await (Multiples llamados) *************************/
+
 
 const url = "https://jsonplaceholder.typicode.com/comments"
 const url2 = "https://jsonplaceholder.typicode.com/photos"
@@ -17,6 +18,7 @@ const consultarAPI = async () => {
     const resultado2 = await respuesta2.json()
     // console.log(resultado2)
 
+    //Medir el performance 
     const fin = performance.now()
 
     console.log(`Ejecución PRIMER Async: ${fin - inicio} ms`)
@@ -28,12 +30,14 @@ const consultarAPI2 = async () => {
 
     const inicio = performance.now()
 
+    //Arranca los dos al mismo tiempo Promise.all([ fetch(url), fetch(url2) ]
     const [respuesta, respuesta2 ] = await Promise.all([ fetch(url), fetch(url2) ])
+    //Detectamos cuando termina y cuando empieza la otra 
     const resultado = await respuesta.json()
     const resultado2 = await respuesta2.json()
 
-    // console.log(resultado)
-    // console.log(resultado2)
+    console.log(resultado)
+    console.log(resultado2)
 
     const fin = performance.now()
 
